@@ -1,0 +1,93 @@
+/* ...Keep previous CSS from the vaporwave style, then add/append the following... */
+
+/* Windows 95 Frame */
+.win95-frame {
+  margin: 2.5rem auto;
+  max-width: 900px;
+  box-shadow: 0 8px 32px 0 rgba(90, 105, 175, 0.21);
+  border: 2px solid #b3e4f7;
+  border-radius: 10px;
+  background: #e3e3e3;
+  overflow: hidden;
+}
+.win95-titlebar {
+  background: linear-gradient(90deg, #b3e4f7 10%, #c1b5d6 90%);
+  color: #321a5a;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1rem;
+  padding: 0.7rem 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #b3e4f7;
+}
+.win95-buttons {
+  display: flex;
+  gap: 4px;
+}
+.win95-btn {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border: 2px solid #b3e4f7;
+  border-radius: 2px;
+  box-shadow: 1px 1px 0 #c1b5d6;
+  margin-left: 2px;
+}
+.win95-content {
+  padding: 1.4rem 0.7rem 0.7rem 0.7rem;
+  background: rgba(111, 104, 161, 0.81);
+  border-radius: 0 0 8px 8px;
+}
+
+/* Japanese text stylings */
+.jp-text {
+  font-size: 1.1rem;
+  color: #a18fc6;
+  margin-left: 1rem;
+  font-family: 'Noto Sans JP', 'Orbitron', sans-serif;
+  letter-spacing: 0.15em;
+  vertical-align: middle;
+}
+.jp-text-mid {
+  font-size: 1rem;
+  color: #f7c8d8;
+  font-family: 'Noto Sans JP', 'Orbitron', sans-serif;
+  margin-left: 1rem;
+  letter-spacing: 0.13em;
+}
+.jp-deco {
+  display: block;
+  margin-top: 0.7em;
+  color: #b3e4f7;
+  font-size: 1.05em;
+  font-family: 'Noto Sans JP', sans-serif;
+  opacity: 0.76;
+  letter-spacing: 0.19em;
+}
+
+/* Greek bust and vaporwave icons */
+.icon-bust img {
+  height: 32px;
+  width: auto;
+  border-radius: 6px;
+  margin-left: 0.7em;
+  vertical-align: middle;
+  filter: grayscale(0.35) contrast(1.08);
+  border: 2px solid #b3e4f7;
+  box-shadow: 0 0 12px #c1b5d6a8;
+}
+
+.icon-fruit {
+  margin-left: 0.5em;
+  vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  .win95-frame {
+    margin: 0.5rem;
+  }
+  .win95-content {
+    padding: 0.4rem 0.2rem 0.2rem 0.2rem;
+  }
+}
