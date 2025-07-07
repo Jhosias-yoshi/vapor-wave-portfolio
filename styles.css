@@ -1,5 +1,7 @@
 /* ...Keep previous CSS from the vaporwave style, then add/append the following... */
-
+body{
+ background-image: URL("https://videos.openai.com/vg-assets/assets%2Ftask_01jzkj7rw9e6hb3w0kgsap19c3%2F1751929603_img_0.webp"):
+}
 /* Windows 95 Frame */
 .win95-frame {
   margin: 2.5rem auto;
